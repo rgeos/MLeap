@@ -1,0 +1,23 @@
+{
+  "schema": {
+    "fields": [{
+      "name": "temperature",
+      "type": "double"
+    }, {
+      "name": "exhaust_vacuum",
+      "type": "double"
+    }, {
+      "name": "ambient_pressure",
+      "type": "double"
+    }, {
+      "name": "relative_humidity",
+      "type": "double"
+    }]
+  },
+  "rows": [
+	  [10.2, 50.8, 1010.8, 63.7],
+	  [20.9, 72.1, 1000.2, 53.4],
+	  [33.6, 63.4, 919.89, 83.2],
+	  [24.9, 88.9, 1005.3, 73.1]
+  ]
+}
