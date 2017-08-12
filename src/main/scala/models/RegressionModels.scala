@@ -37,7 +37,7 @@ object RegressionModels {
 			.load(path + "/" + file)
 
 
-	def export_pipeline(pipeline: PM, path: String = "/tmp/model.zip"): Unit = {
+	def export_pipeline(pipeline: PM, path: String = "/tmp/model_.zip"): Unit = {
 
 		val sbc = SBC()
 		for(bf <- managed(BF(s"jar:file:$path"))) {

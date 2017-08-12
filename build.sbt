@@ -4,7 +4,7 @@ lazy val root = (project in file("."))
 	.enablePlugins(BuildInfoPlugin)
 	.settings(
 		name := "RegressionModels",
-		version := "1.5.2",
+		version := "1.5.3",
 		scalaVersion := "2.11.8",
 		buildInfoOptions += BuildInfoOption.BuildTime,
 		buildInfoPackage := "info",
