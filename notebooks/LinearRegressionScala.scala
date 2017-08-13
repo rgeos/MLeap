@@ -3,15 +3,15 @@
 // MAGIC 
 // MAGIC # Linear Regression using ![LOGO](http://demo.epigno.systems/scala_spark.png)
 // MAGIC 
-// MAGIC In this notebook we will will employ a simple linear regression model to predict the amount of energy output of a power plant. The dataset used for this analysis comes from [UC Irvine machine learning repository](http://mlr.cs.umass.edu/ml/datasets/Combined+Cycle+Power+Plant). The dataset contains 9568 data points collected from a Combined Cycle Power Plant over 6 years (2006-2011).
+// MAGIC In this notebook we will will employ a simple linear regression model to predict the amount of energy output of a power plant. The dataset used for this analysis comes from UC Irvine [machine learning repository](http://archive.ics.uci.edu/ml/datasets/combined+cycle+power+plant). The dataset contains 9568 data points collected from a Combined Cycle Power Plant over 6 years (2006-2011).
 // MAGIC 
 // MAGIC **Data information** as described on the site above:
 // MAGIC 
 // MAGIC Features consist of hourly average ambient variables 
 // MAGIC - Temperature (T) in the range 1.81C and 37.11C,
-// MAGIC - Ambient Pressure (AP) in the range 992.89-1033.30 milibar,
+// MAGIC - Ambient Pressure (AP) in the range 992.89-1033.30 millibar,
 // MAGIC - Relative Humidity (RH) in the range 25.56% to 100.16%
-// MAGIC - Exhaust Vacuum (V) in teh range 25.36-81.56 cm Hg
+// MAGIC - Exhaust Vacuum (V) in the range 25.36-81.56 cm Hg
 // MAGIC - Net hourly electrical energy output (EP) 420.26-495.76 MW
 // MAGIC The averages are taken from various sensors located around the plant that record the ambient variables every second. The variables are given without normalization.
 // MAGIC 
